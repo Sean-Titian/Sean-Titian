@@ -1,0 +1,13 @@
+# Local planning material for this workspace; never publish it with the profile.
+.local/
+
+# Private source material and isolated project repositories. Each public project
+# is curated separately so institution materials and large datasets cannot leak
+# into the profile repository.
+Projects/
+repos/
+
+# Operating-system noise.
+.DS_Store
+Thumbs.db
+Desktop.ini

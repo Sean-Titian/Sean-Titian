@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Sean Titian</title>
+  <desc id="description">A dark professional banner with violet accents and the phrase Build carefully. Ship clearly.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#121721"/>
+      <stop offset="1" stop-color="#171324"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="318" rx="26" fill="url(#background)" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="318" rx="26" fill="url(#grid)"/>
+  <circle cx="1018" cy="48" r="250" fill="url(#glow)"/>
+
+  <g transform="translate(82 72)">
+    <rect width="7" height="176" rx="3.5" fill="url(#accent)"/>
+
+    <text x="34" y="37" fill="#a7b0be" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="4">SEAN · TITIAN</text>
+    <text x="32" y="101" fill="#f0f3f6" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="650" letter-spacing="-1.2">Build carefully.</text>
+    <text x="32" y="156" fill="url(#accent)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="650" letter-spacing="-1.2">Ship clearly.</text>
+  </g>
+
+  <g transform="translate(916 72)">
+    <circle cx="96" cy="88" r="70" fill="none" stroke="#a78bfa" stroke-opacity="0.2"/>
+    <circle cx="96" cy="88" r="43" fill="none" stroke="#a78bfa" stroke-opacity="0.34"/>
+    <path d="M49 39L96 12L143 39V93L96 120L49 93Z" fill="none" stroke="#c4b5fd" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M49 93L96 66L143 93M96 12V66M96 66V120" fill="none" stroke="#c4b5fd" stroke-opacity="0.35" stroke-width="2"/>
+    <circle cx="96" cy="66" r="8" fill="#a78bfa" filter="url(#softGlow)" opacity="0.75"/>
+    <circle cx="96" cy="66" r="5" fill="#c4b5fd"/>
+    <circle cx="49" cy="39" r="4" fill="#8b5cf6"/>
+    <circle cx="143" cy="93" r="4" fill="#8b5cf6"/>
+    <circle cx="96" cy="120" r="4" fill="#8b5cf6"/>
+  </g>
+
+  <g transform="translate(916 262)" fill="#9da7b5" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2">
+    <text x="0" y="0">BUILD</text>
+    <circle cx="58" cy="-4" r="2" fill="#8b5cf6"/>
+    <text x="72" y="0">REFINE</text>
+    <circle cx="145" cy="-4" r="2" fill="#8b5cf6"/>
+    <text x="159" y="0">SHIP</text>
+  </g>
+</svg>
