@@ -1,16 +1,22 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Sean Titian — build carefully, ship clearly" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Zishen (Sean) Tian — build carefully, ship clearly" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/Sean-Titian?tab=repositories">Projects</a>
   ·
   <a href="https://github.com/Sean-Titian?tab=stars">Learning shelf</a>
+  ·
+  <a href="https://www.linkedin.com/in/zishen-tian-a14318320/">LinkedIn</a>
 </p>
 
-## Hello, I'm Sean.
+## Hello, I'm Sean (Zishen) Tian.
 
 I am building toward **Applied / Product Data Science with strong ML Engineering skills**. I care about the full path from a product question to a trustworthy decision: define the metric, validate the data, model the uncertainty, test the intervention, and ship a reproducible system.
+
+I am pursuing an M.S. in Spatial Economics and Data Analysis at the University of Southern
+California (expected 2027), bringing an econometrics lens to product experimentation and applied
+machine learning.
 
 ### T-shaped direction
 
@@ -22,15 +28,15 @@ I treat this as a roadmap, not a wall of skill badges. A technology appears as a
 
 ### Selected work
 
-Three case studies are moving through a public-release review. Each repository is rebuilt from my own analysis and excludes private course material, restricted data, and unverifiable claims.
+Each case study is rebuilt from my own analysis and excludes private course material, restricted
+data, and unverifiable claims. Projects are linked only after passing a reality, license,
+reproducibility, and documentation review.
 
 <!-- PROFILE:PROJECTS:START -->
-- **Conversion Intelligence** — decision-aware conversion modeling, leakage-safe pipelines, cost-sensitive thresholds, and an A/B-test handoff.
-- **Lifecycle Email Experimentation** — multi-arm messaging analysis with causal inference, multiplicity control, temporal attribution, and funnel integrity.
-- **Amazon Review NLP** — group-aware sentiment evaluation and a compact, reproducible text-classification pipeline.
+- **[Conversion Intelligence](https://github.com/Sean-Titian/conversion-intelligence)** — acquisition-time ranking with AP 0.133 against 3.2% prevalence and 5.25× lift at the top 5%; includes prediction-time contracts, leakage-aware evaluation, calibration, robustness tests, and an experiment handoff. The much higher final-session score is documented as non-deployable.
+- **Lifecycle Email Experimentation** *(in review)* — multi-arm messaging analysis with multiplicity control, temporal attribution, and funnel integrity.
+- **Amazon Review NLP** *(in review)* — group-aware sentiment evaluation and a compact, reproducible text-classification pipeline.
 <!-- PROFILE:PROJECTS:END -->
-
-Links will be added only when each project passes its data, license, reproducibility, and documentation gate.
 
 ### How I work
 

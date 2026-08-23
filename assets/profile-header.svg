@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
-  <title id="title">Sean Titian</title>
+  <title id="title">Zishen (Sean) Tian</title>
   <desc id="description">A dark professional banner with violet accents and the phrase Build carefully. Ship clearly.</desc>
 
   <defs>
@@ -31,7 +31,7 @@
   <g transform="translate(82 72)">
     <rect width="7" height="176" rx="3.5" fill="url(#accent)"/>
 
-    <text x="34" y="37" fill="#a7b0be" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="4">SEAN · TITIAN</text>
+    <text x="34" y="37" fill="#a7b0be" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="4">ZISHEN · SEAN · TIAN</text>
     <text x="32" y="101" fill="#f0f3f6" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="650" letter-spacing="-1.2">Build carefully.</text>
     <text x="32" y="156" fill="url(#accent)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="650" letter-spacing="-1.2">Ship clearly.</text>
   </g>
