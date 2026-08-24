@@ -34,7 +34,7 @@ reproducibility, and documentation review.
 
 <!-- PROFILE:PROJECTS:START -->
 - **[Conversion Intelligence](https://github.com/Sean-Titian/conversion-intelligence)** — acquisition-time ranking with AP 0.133 against 3.2% prevalence and 5.25× lift at the top 5%; includes prediction-time contracts, leakage-aware evaluation, calibration, robustness tests, and an experiment handoff. The much higher final-session score is documented as non-deployable.
-- **Lifecycle Email Experimentation** *(in review)* — multi-arm messaging analysis with multiplicity control, temporal attribution, and funnel integrity.
+- **[Lifecycle Email Experimentation](https://github.com/Sean-Titian/lifecycle-email-experimentation)** — reality-audited multi-arm messaging analysis: only 1 of 24 retrospective funding snapshot differences survived correction (+0.311 pp; adjusted p ≈ 0.011), while no cadence winner was supported. The public-safe implementation adds fixed windows, Holm/BH control, a pre-treatment negative control, temporal funnels, guardrail denominators, tests, and CI.
 - **Amazon Review NLP** *(in review)* — group-aware sentiment evaluation and a compact, reproducible text-classification pipeline.
 <!-- PROFILE:PROJECTS:END -->
 
@@ -46,9 +46,9 @@ reproducibility, and documentation review.
 
 ### Current build sequence
 
-1. Product conversion modeling and experimentation handoff
-2. Multi-arm lifecycle messaging experimentation
-3. NLP evaluation and deployment discipline
+1. Product conversion modeling and experimentation handoff — **published**
+2. Multi-arm lifecycle messaging experimentation — **published**
+3. NLP evaluation and deployment discipline — **next**
 4. SQL/PySpark feature pipelines, MLOps, AWS, and LLM systems as deeper extensions—not decorative add-ons
 
 <p align="center">
