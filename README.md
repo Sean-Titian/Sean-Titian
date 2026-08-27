@@ -33,9 +33,9 @@ data, and unverifiable claims. Projects are linked only after passing a reality,
 reproducibility, and documentation review.
 
 <!-- PROFILE:PROJECTS:START -->
-- **[Conversion Intelligence](https://github.com/Sean-Titian/conversion-intelligence)** — acquisition-time ranking with AP 0.133 against 3.2% prevalence and 5.25× lift at the top 5%; includes prediction-time contracts, leakage-aware evaluation, calibration, robustness tests, and an experiment handoff. The much higher final-session score is documented as non-deployable.
+- **[Conversion Intelligence](https://github.com/Sean-Titian/conversion-intelligence)** — leakage-aware acquisition scoring (AP 0.133 vs. 3.2% prevalence; 5.25× lift at the top 5%) with prediction-time contracts and decision-cost auditing. Under an illustrative 4:1 FN:FP loss ratio, the cost-aware rule reduced modeled loss by 17.3% versus a 0.50 threshold; validation-selected cutoffs showed no material gain over the theoretical 0.20 rule, and the higher-scoring final-session model is explicitly non-deployable.
 - **[Lifecycle Email Experimentation](https://github.com/Sean-Titian/lifecycle-email-experimentation)** — reality-audited multi-arm messaging analysis: only 1 of 24 retrospective funding snapshot differences survived correction (+0.311 pp; adjusted p ≈ 0.011), while no cadence winner was supported. The public-safe implementation adds fixed windows, Holm/BH control, a pre-treatment negative control, temporal funnels, guardrail denominators, tests, and CI.
-- **Amazon Review NLP** *(in review)* — group-aware sentiment evaluation and a compact, reproducible text-classification pipeline.
+- **Amazon Review NLP** *(in review)* — a private text-classification study using star ratings as a sentiment proxy, currently undergoing a clean-room rebuild; publication is gated on leakage-safe evaluation, data licensing/privacy, and end-to-end reproducibility.
 <!-- PROFILE:PROJECTS:END -->
 
 ### How I work
@@ -46,9 +46,9 @@ reproducibility, and documentation review.
 
 ### Current build sequence
 
-1. Product conversion modeling and experimentation handoff — **published**
+1. Product conversion modeling, decision-cost audit, and experimentation handoff — **published**
 2. Multi-arm lifecycle messaging experimentation — **published**
-3. NLP evaluation and deployment discipline — **next**
+3. Clean-room NLP reliability evaluation and deployment discipline — **next**
 4. SQL/PySpark feature pipelines, MLOps, AWS, and LLM systems as deeper extensions—not decorative add-ons
 
 <p align="center">

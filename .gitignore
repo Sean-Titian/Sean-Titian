@@ -7,6 +7,14 @@
 Projects/
 repos/
 
+# Local resume review exports and helper scripts contain personal information
+# and are not part of the public profile repository.
+/_audit_comments.json
+/_audit_resume_teacher/
+/resume_current_review/
+/resume_teacher_review/
+/tools/
+
 # Operating-system noise.
 .DS_Store
 Thumbs.db
