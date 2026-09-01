@@ -13,9 +13,15 @@ repos/
 /_audit_resume_teacher/
 /resume_current_review/
 /resume_teacher_review/
+/resume_review_*/
+/.tmp_resume_*
+/*.docx
+/tmp/
 /tools/
 
-# Operating-system noise.
+# Local tooling and operating-system noise.
+/.ruff_cache/
+/__pycache__/
 .DS_Store
 Thumbs.db
 Desktop.ini

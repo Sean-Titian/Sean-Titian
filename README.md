@@ -18,14 +18,6 @@ I am pursuing an M.S. in Spatial Economics and Data Analysis at the University o
 California (expected 2027), bringing an econometrics lens to product experimentation and applied
 machine learning.
 
-### T-shaped direction
-
-| Depth I am developing | Breadth I am building | Long-term direction |
-| :--- | :--- | :--- |
-| Experimentation · Causal inference · Applied ML | SQL · PySpark · MLOps · Cloud · LLM systems | Applied / Product Data Scientist → Applied Scientist / ML Scientist |
-
-I treat this as a roadmap, not a wall of skill badges. A technology appears as a demonstrated strength only after a project makes the design choices, limitations, and evidence visible.
-
 ### Selected work
 
 Each case study is rebuilt from my own analysis and excludes private course material, restricted
@@ -33,9 +25,9 @@ data, and unverifiable claims. Projects are linked only after passing a reality,
 reproducibility, and documentation review.
 
 <!-- PROFILE:PROJECTS:START -->
-- **[Conversion Intelligence](https://github.com/Sean-Titian/conversion-intelligence)** — leakage-aware acquisition scoring (AP 0.133 vs. 3.2% prevalence; 5.25× lift at the top 5%) with prediction-time contracts and decision-cost auditing. Under an illustrative 4:1 FN:FP loss ratio, the cost-aware rule reduced modeled loss by 17.3% versus a 0.50 threshold; validation-selected cutoffs showed no material gain over the theoretical 0.20 rule, and the higher-scoring final-session model is explicitly non-deployable.
-- **[Lifecycle Email Experimentation](https://github.com/Sean-Titian/lifecycle-email-experimentation)** — reality-audited multi-arm messaging analysis: only 1 of 24 retrospective funding snapshot differences survived correction (+0.311 pp; adjusted p ≈ 0.011), while no cadence winner was supported. The public-safe implementation adds fixed windows, Holm/BH control, a pre-treatment negative control, temporal funnels, guardrail denominators, tests, and CI.
-- **[Review Sentiment Reliability](https://github.com/Sean-Titian/review-sentiment-reliability)** — a clean-room, synthetic-only, split-first reliability harness for a rating-derived review-text proxy. It compares row, fingerprint, user, product, and forward-time protocols with fail-closed permutation controls, calibration diagnostics, fixed-budget metrics, serving stress tests, and training-serving parity; it makes no real-data performance or production-value claim.
+- **[Conversion Intelligence](https://github.com/Sean-Titian/conversion-intelligence)** — acquisition scoring with a prediction-time contract: AP 0.133 versus 3.2% prevalence and 5.25× lift at the top 5%. An illustrative cost-sensitive audit separates decision loss from model score, and the stronger final-session model is marked non-deployable because its features arrive too late.
+- **[Lifecycle Email Experimentation](https://github.com/Sean-Titian/lifecycle-email-experimentation)** — a messaging case study that separates a limited retrospective source audit from a public-safe synthetic implementation with fixed windows, multiplicity correction, a pre-treatment negative control, and guardrails. Only 1 of 24 source funding-snapshot differences survived correction (+0.311 pp; adjusted p ≈ 0.011); no cadence winner was supported.
+- **[Review Sentiment Reliability](https://github.com/Sean-Titian/review-sentiment-reliability)** — a clean-room, synthetic-only reliability study for a rating-derived text proxy. Contract 2.0 enforces leakage-aware group/time evaluation, repeated null controls, serving stress, and train/serve parity. Because rating defines the target, the model may be redundant when ratings are visible; it makes no real-data, causal, or production-value claim.
 <!-- PROFILE:PROJECTS:END -->
 
 ### How I work
@@ -44,12 +36,17 @@ reproducibility, and documentation review.
 | :--- | :--- | :--- |
 | Start with the user, metric, prediction time, and cost of error. | Use observational models for ranking; use experiments for intervention claims. | Add data contracts, tests, CI, model cards, and honest limitations. |
 
-### Current build sequence
+### T-shaped direction
 
-1. Product conversion modeling, decision-cost audit, and experimentation handoff — **published**
-2. Multi-arm lifecycle messaging experimentation — **published**
-3. Clean-room review-text reliability evaluation and serving contracts — **published (synthetic-only)**
-4. SQL/PySpark feature pipelines, MLOps, AWS, and LLM systems as deeper extensions—not decorative add-ons
+| Depth I am developing | Breadth I am building | Long-term direction |
+| :--- | :--- | :--- |
+| Experimentation · Causal inference · Applied ML | SQL · PySpark · MLOps · Cloud · LLM systems | Applied / Product Data Scientist → Applied Scientist / ML Scientist |
+
+I treat this as a roadmap, not a wall of skill badges. A technology appears as a demonstrated strength only after a project makes the design choices, limitations, and evidence visible.
+
+### Building next
+
+A SQL/PySpark point-in-time feature pipeline with data-quality and batch/serving parity tests. This is planned evidence, not a current skill claim.
 
 <p align="center">
   <sub>Measure carefully · Build responsibly · Improve in public</sub>
