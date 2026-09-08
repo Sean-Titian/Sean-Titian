@@ -25,7 +25,7 @@ data, and unverifiable claims. Projects are linked only after passing a reality,
 reproducibility, and documentation review.
 
 <!-- PROFILE:PROJECTS:START -->
-- **[Conversion Intelligence](https://github.com/Sean-Titian/conversion-intelligence)** — acquisition scoring with a prediction-time contract: AP 0.133 versus 3.2% prevalence and 5.25× lift at the top 5%. An illustrative cost-sensitive audit separates decision loss from model score, and the stronger final-session model is marked non-deployable because its features arrive too late.
+- **[Conversion Intelligence](https://github.com/Sean-Titian/conversion-intelligence)** — acquisition scoring with a prediction-time contract: mean AP 0.133 against a 3.2% base rate and 5.25× lift at the top 5%. A synthetic-only Spark SQL/PySpark extension enforces event- and availability-time cutoffs and one row per score request, with exact Spark/Pandas parity on its deterministic fixture. The higher-scoring full-session model remains a retrospective upper bound because its final page count is unavailable at the acquisition-time decision.
 - **[Lifecycle Email Experimentation](https://github.com/Sean-Titian/lifecycle-email-experimentation)** — a messaging case study that separates a limited retrospective source audit from a public-safe synthetic implementation with fixed windows, multiplicity correction, a pre-treatment negative control, and guardrails. Only 1 of 24 source funding-snapshot differences survived correction (+0.311 pp; adjusted p ≈ 0.011); no cadence winner was supported.
 - **[Review Sentiment Reliability](https://github.com/Sean-Titian/review-sentiment-reliability)** — a clean-room, synthetic-only reliability study for a rating-derived text proxy. Contract 2.0 enforces leakage-aware group/time evaluation, repeated null controls, serving stress, and train/serve parity. Because rating defines the target, the model may be redundant when ratings are visible; it makes no real-data, causal, or production-value claim.
 <!-- PROFILE:PROJECTS:END -->
@@ -44,9 +44,11 @@ reproducibility, and documentation review.
 
 I treat this as a roadmap, not a wall of skill badges. A technology appears as a demonstrated strength only after a project makes the design choices, limitations, and evidence visible.
 
-### Building next
+### Evidence shipped, learning next
 
-A SQL/PySpark point-in-time feature pipeline with data-quality and batch/serving parity tests. This is planned evidence, not a current skill claim.
+SQL/PySpark has moved from roadmap to public project evidence through the Conversion pipeline above and its dedicated Spark parity CI. This proves controlled transformation correctness—not production scale, online serving, or improved real-world model performance.
+
+Next I am extending Lifecycle Email's existing public-safe synthetic workflow toward its full prospective design: stratified factorial assignment with a concurrent holdout, aligned 14-day follow-up, sample-ratio and contamination checks, multiplicity-aware decision rules, and non-inferiority customer-harm guardrails.
 
 <p align="center">
   <sub>Measure carefully · Build responsibly · Improve in public</sub>
